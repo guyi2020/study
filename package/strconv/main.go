@@ -31,5 +31,4 @@ func main() {
 	// 5. bool 转 字符串格式
 	s = strconv.FormatBool(true)
 	fmt.Printf("%T, %v\n", s, s)
-
 }
