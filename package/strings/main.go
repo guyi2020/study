@@ -68,7 +68,6 @@ func main() {
 	// 18. 返回将s后端所有cutset包含的utf-8码值都去掉的字符串。
 	fmt.Printf("TrimRight: %v \n", strings.TrimRight("hello", "lo"))
 
-
 	// 19. 返回去除s可能的后缀suffix的字符串。
 	fmt.Printf("TrimSuffix: %v \n", strings.TrimSuffix("Hello, goodbye, etc!", "etc"))
 
@@ -80,7 +79,6 @@ func main() {
 
 	// 22. 将一系列字符串连接为一个字符串，之间用sep来分隔。
 	s := []string{"foo", "bar", "baz"}
-	fmt.Printf("Join: %s\n",strings.Join(s, ", "))
+	fmt.Printf("Join: %s\n", strings.Join(s, ", "))
 
-	// 23. 
 }
